@@ -20,7 +20,7 @@ window.COD_CONFIG = {
   UPSELL: null, // ví dụ { id: 'SKU-UP', name: 'Thêm 1 cái tặng người thân', price: 149000 } — luôn là lựa chọn khách tự tick
   HOTLINE: '0395018127',
   ZALO: 'https://zalo.me/0395018127',
-  EMAIL: 'info.tilux@gmail.com',
+  EMAIL: 'tiluxfacebookads@gmail.com',
   IP_LOOKUP: 'https://api64.ipify.org?format=json', // '' để tắt (IP giúp tăng điểm so khớp)
   ABANDON_CAPTURE: false,
   THANKYOU_URL: 'cam-on.html'
