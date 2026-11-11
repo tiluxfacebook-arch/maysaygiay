@@ -4,7 +4,7 @@
  * Muốn đổi sang sheet/pixel khác: chỉ sửa 3 dòng ENDPOINT / META_PIXEL_ID / TIKTOK_PIXEL_ID.
  * Giá trị bắt đầu bằng 'YOUR_' = tắt (chế độ demo: không gửi đơn, không tải pixel). */
 window.COD_CONFIG = {
-  ENDPOINT: 'YOUR_SHEET_ENDPOINT',
+  ENDPOINT: 'https://script.google.com/macros/s/AKfycbwzWl7Lu61EuDmRH2_sUGizVEVHfvMBpJTr493glsQJ2zVnuEKlteWuwJINPHBnMGyc8g/exec',
   META_PIXEL_ID: '1775494950404512', // nhiều pixel: cách nhau dấu phẩy
   TIKTOK_PIXEL_ID: 'YOUR_TIKTOK_PIXEL_CODE', // chưa dùng; admin điền khi có
   // id = mã SKU ngắn, KHÔNG dấu (vd 'KPCT-MEO-01'); name = tên sản phẩm hiện trong Sheet
