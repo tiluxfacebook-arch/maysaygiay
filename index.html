@@ -365,6 +365,31 @@ footer{background:var(--text-1);padding:2.75rem 0 7rem;text-align:center}
   .sticky-bar{left:auto;right:24px;bottom:20px;width:380px;border-radius:var(--radius-lg)}
   .sticky-in{max-width:none}
 }
+
+/* === Fix nút: gọn, không tràn (2026-11) === */
+.btn{padding:.72rem 1.1rem;min-height:44px;font-size:.95rem}
+.btn-block{max-width:100%}
+.pd-actions .btn,.combo-card .btn{width:100%}
+.combo-card .btn{padding:.6rem 1rem;min-height:40px;font-size:.92rem}
+#submitBtn{padding:.8rem 1rem;font-size:1rem;gap:.15rem;flex-direction:column}
+#submitBtn .sb-main{display:block;white-space:nowrap}
+#submitBtn small{font-size:.76rem}
+@media (min-width:768px){.combo-card{display:flex;flex-direction:column}.combo-card .btn{margin-top:auto}.combo-card>:nth-last-child(2){margin-bottom:1rem}}
+.sticky-bar .btn{padding:.72rem .8rem;font-size:.95rem;white-space:nowrap}
+.final-cta .btn{width:auto;max-width:100%;padding-left:1.8rem;padding-right:1.8rem}
+.consent{display:block}
+.consent a{white-space:nowrap}
+.total-row{gap:.6rem;align-items:center}
+.total-row span{font-size:.9rem;white-space:nowrap}.total-row b{font-size:1.3rem}
+.chip,.pd-tags span{white-space:nowrap}
+@media (max-width:360px){#submitBtn .sb-main{white-space:normal}.btn{font-size:.9rem}}
+
+
+
+
+/* === Phông nền theo sản phẩm (2026-11) === */
+body,section.sec-surface,section.sec-warm,section:not([class]){background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='168' height='168' viewBox='0 0 168 168'%3E%3Cg fill='none' stroke='%231f4e79' stroke-opacity='0.09' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg transform='translate%2814 14%29 rotate%28-12 12 12%29'%3E%3Cpath d='M2 22h26a3 3 0 0 0 3-3c0-2.5-2.5-3.5-5-4.2l-7-2.3-3-5.5H8L6 10 2 9z'/%3E%3Cpath d='M2 18h29'/%3E%3C/g%3E%3Cg transform='translate%2896 30%29 rotate%2814 12 12%29'%3E%3Cpath d='M0 6q4-5 8 0t8 0t8 0'/%3E%3Cpath d='M0 14q4-5 8 0t8 0t8 0'/%3E%3C/g%3E%3Cg transform='translate%2840 96%29 rotate%288 12 12%29'%3E%3Cpath d='M10 2C10 2 3 10 3 15a7 7 0 0 0 14 0c0-5-7-13-7-13z'/%3E%3C/g%3E%3Cg transform='translate%28122 112%29 rotate%28-18 12 12%29'%3E%3Cpath d='M10 0l2.2 7.8L20 10l-7.8 2.2L10 20l-2.2-7.8L0 10l7.8-2.2z'/%3E%3C/g%3E%3Cg transform='translate%2876 70%29 rotate%2830 12 12%29'%3E%3Cpath d='M0 6q4-5 8 0t8 0t8 0'/%3E%3Cpath d='M0 14q4-5 8 0t8 0t8 0'/%3E%3C/g%3E%3Cg transform='translate%286 140%29 rotate%280 12 12%29'%3E%3Cpath d='M6 0l1.3 4.7L12 6l-4.7 1.3L6 12l-1.3-4.7L0 6l4.7-1.3z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");background-repeat:repeat;background-size:168px 168px}
+/* === end bg */
 </style>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://tiluxfacebook-arch.github.io/maysaygiay/#org", "name": "Tilux", "slogan": "Vẻ Đẹp Thuần Khiết", "url": "https://tiluxfacebook-arch.github.io/maysaygiay/", "logo": "https://tiluxfacebook-arch.github.io/maysaygiay/img/tilux-logo.webp", "telephone": "+84-395-018-127", "email": "tiluxfacebookads@gmail.com"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Tilux", "item": "https://tiluxfacebook-arch.github.io/maysaygiay/"}, {"@type": "ListItem", "position": 2, "name": "Máy sấy giày khử mùi", "item": "https://tiluxfacebook-arch.github.io/maysaygiay/"}]}, {"@type": "Product", "@id": "https://tiluxfacebook-arch.github.io/maysaygiay/#product", "name": "Máy sấy giày khử mùi Tilux", "description": "Máy sấy giày gió ấm, hẹn giờ tự ngắt, sấy giày, dép, tất, găng tay. 4 mẫu: 4 chân, 2 chân, 4 chân bản 2, 6 chân.", "brand": {"@type": "Brand", "name": "Tilux"}, "category": "Máy sấy giày", "image": ["https://tiluxfacebook-arch.github.io/maysaygiay/img/m2-hero-800.webp", "https://tiluxfacebook-arch.github.io/maysaygiay/img/m1-hero-800.webp", "https://tiluxfacebook-arch.github.io/maysaygiay/img/m4-hero-800.webp", "https://tiluxfacebook-arch.github.io/maysaygiay/img/m3-hero-800.webp"], "offers": {"@type": "Offer", "name": "Máy sấy giày 2 chân", "sku": "MSG-2C", "price": "299000", "priceCurrency": "VND", "availability": "https://schema.org/InStock", "itemCondition": "https://schema.org/NewCondition", "acceptedPaymentMethod": "https://schema.org/COD", "url": "https://tiluxfacebook-arch.github.io/maysaygiay/", "shippingDetails": {"@type": "OfferShippingDetails", "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "VND"}, "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "VN"}, "deliveryTime": {"@type": "ShippingDeliveryTime", "handlingTime": {"@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY"}, "transitTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 5, "unitCode": "DAY"}}}, "hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy", "applicableCountry": "VN", "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow", "merchantReturnDays": 7}}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Sấy có làm hỏng, co giày không?", "acceptedAnswer": {"@type": "Answer", "text": "Máy thổi gió ấm ở nhiệt độ vừa phải, không nóng như máy sấy tóc, nên dùng được cho giày vải, giày thể thao, giày da thông thường. Giày da cao cấp hoặc giày dán keo yếu nên sấy lượt ngắn trước để kiểm tra."}}, {"@type": "Question", "name": "Bao lâu thì giày khô?", "acceptedAnswer": {"@type": "Answer", "text": "Giày ẩm mồ hôi khoảng 30–60 phút. Giày ướt mưa hoặc vừa giặt cần lâu hơn: vắt ráo nước rồi sấy nhiều lượt hẹn giờ."}}, {"@type": "Question", "name": "4 mẫu khác nhau thế nào, nên chọn máy nào?", "acceptedAnswer": {"@type": "Answer", "text": "Máy 2 chân rẻ nhất, dùng núm vặn, dễ dùng cho người lớn tuổi. Máy 4 chân dáng vali gấp gọn, có cảm ứng và đèn UV. Máy 4 chân bản 2 bấm 1 nút, sấy 2 đôi cùng lúc. Máy 6 chân sấy được nhiều nhất, có đèn UV và quai da."}}, {"@type": "Question", "name": "Giá bao nhiêu, mua nhiều máy có được freeship không?", "acceptedAnswer": {"@type": "Answer", "text": "Máy 2 chân 299.000đ, máy 4 chân 399.000đ, máy 4 chân bản 2 399.000đ, máy 6 chân 449.000đ. Mọi đơn đều freeship toàn quốc, mua 1 máy cũng miễn phí giao hàng."}}, {"@type": "Question", "name": "Mua nhiều mẫu khác nhau trong 1 đơn được không?", "acceptedAnswer": {"@type": "Answer", "text": "Được. Bấm dấu + ở từng máy để chọn số lượng, tổng tiền tự cộng và hiện ngay trên nút đặt hàng."}}, {"@type": "Question", "name": "Tôi có được kiểm tra hàng trước khi thanh toán không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Bạn được mở hộp kiểm tra máy trước khi trả tiền cho nhân viên giao hàng. Không ưng có thể từ chối nhận."}}, {"@type": "Question", "name": "Bao lâu thì nhận được hàng?", "acceptedAnswer": {"@type": "Answer", "text": "Nội thành Hà Nội, TP.HCM thường 1–2 ngày, tỉnh khác 2–5 ngày sau khi nhân viên gọi xác nhận đơn."}}, {"@type": "Question", "name": "Nếu máy lỗi thì đổi trả thế nào?", "acceptedAnswer": {"@type": "Answer", "text": "Trong 7 ngày kể từ khi nhận hàng, máy lỗi do nhà sản xuất được đổi mới miễn phí. Bạn nên quay video lúc mở hàng và gọi hoặc nhắn Zalo hotline để được hỗ trợ nhanh."}}]}]}
@@ -550,13 +575,13 @@ footer{background:var(--text-1);padding:2.75rem 0 7rem;text-align:center}
       <table class="spec-table">
         <tr><th>Sản phẩm</th><td>Máy sấy giày khử mùi Tilux, 4 mẫu</td></tr>
         <tr><th>Điện áp</th><td>220V</td></tr>
-        <tr><th>Công suất</th><td><span class="tbc">TO_CONFIRM từng mẫu</span></td></tr>
-        <tr><th>Nhiệt độ sấy</th><td><span class="tbc">TO_CONFIRM (màn hình máy hiện 48°C)</span></td></tr>
-        <tr><th>Hẹn giờ</th><td>Máy 4 chân: 30–120 phút · Máy 4 chân bản 2: 60–180 phút · Mẫu khác <span class="tbc">TO_CONFIRM</span></td></tr>
+        
+        <tr><th>Nhiệt độ sấy</th><td>Gió ấm khoảng 48°C (hiển thị trên màn hình máy)</td></tr>
+        <tr><th>Hẹn giờ</th><td>Máy 4 chân: 30–120 phút · Máy 4 chân bản 2: 60–180 phút · Máy 2 chân: núm vặn hẹn giờ</td></tr>
         <tr><th>Đèn UV</th><td>Máy 4 chân, máy 6 chân</td></tr>
         <tr><th>Dùng cho</th><td>Giày, dép, tất, găng tay</td></tr>
-        <tr><th>Trong hộp</th><td><span class="tbc">TO_CONFIRM</span></td></tr>
-        <tr><th>Bảo hành</th><td><span class="tbc">TO_CONFIRM</span></td></tr>
+        
+        <tr><th>Đổi trả</th><td>7 ngày nếu lỗi do nhà sản xuất</td></tr>
       </table>
     </div>
 
@@ -739,7 +764,7 @@ footer{background:var(--text-1);padding:2.75rem 0 7rem;text-align:center}
         <p class="consent">Bằng việc bấm Đặt hàng, bạn đồng ý để Tilux dùng thông tin trên để gọi xác nhận, giao hàng và đo lường quảng cáo (dữ liệu được mã hoá trước khi gửi Meta/TikTok). <a href="chinh-sach-bao-mat.html" target="_blank" rel="noopener">Chính sách bảo mật</a></p>
 
         <div class="total-row"><span>Tổng thanh toán khi nhận</span><b data-total>299.000đ</b></div>
-        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">Đặt hàng · <span data-total>299.000đ</span> – trả khi nhận<small>Được kiểm tra hàng trước khi trả tiền</small></button>
+        <button type="submit" class="btn btn-primary btn-block" id="submitBtn"><span class="sb-main">Đặt hàng · <span data-total>299.000đ</span> – trả khi nhận</span><small>Được kiểm tra hàng trước khi trả tiền</small></button>
         <div id="form-error" class="alert" role="alert" hidden></div>
       </form>
       <p class="form-foot"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5v6.09c0 5.05 3.41 9.76 8 10.91 4.59-1.15 8-5.86 8-10.91V5z"/><path d="m9 12 2 2 4-4"/></svg></span>Không cần trả trước, kiểm tra hàng trước khi nhận.</p>
